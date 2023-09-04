@@ -559,7 +559,7 @@ body {
 	}
 	#page2 .content .content-text:first-child{
         border-right: none;
-        padding-bottom: 120px;
+        padding-bottom: 80px;
 	}
 	#page2 .container .container-box h2{
 		font-size: 2em;
@@ -610,10 +610,13 @@ body {
 		font-size: 0.75em;
 		font-weight: 500;
 	}
+	#page2 .content .text-area .content-text{
+
+	}
 	#page2 .content .text-area .content-text strong,
 	#page2 .content .text-area .content-text ul li b,
 	#page2 .content .text-area .content-text ul li p,
-	#page2 .content-text ul {
+	#page2 .content-text ul{
 		font-size: 0.9375em;
 	}
 }
@@ -900,7 +903,11 @@ body {
     }
     #page3 .last-text h5{
         font-size: 2.875em;
+		line-height: 42px;
     }
+	#page3 .last-box {
+		padding: 60px 0;
+	}
     #page3 .last-box p{
         font-size: 1.375em;
     }
@@ -911,6 +918,7 @@ body {
     }
     #page3 .last-text h5{
         font-size: 2.500em;
+		line-height: 32px;
     }
     #page3 .red a{
         width: 120px;
@@ -945,7 +953,7 @@ body {
     }
     #page3 .last-box p {
         font-size: 1.250em;
-        font-weight: 800;
+        font-weight: 500;
     }
     #footer .footer-inner h3 {
         font-size: 0.750em;
@@ -964,6 +972,10 @@ body {
     #page3 .top .title .label {
         display: none;
     }
+	#page3 .content ul li .text-box .text-group {
+		display: block;
+		text-align: center;
+	}
     #page3 .top .title .desc {
         font-size: 1.250em;
         font-weight: 400;
@@ -982,44 +994,56 @@ body {
         padding: 25px 0px;
     }
     #page3 .content ul li .text-box .box-right h4 a {
-        font-size: 1.250em;
+        font-size: 1.750em;
         font-weight: 800;
+		padding-bottom: 20px;
     }
     #page3 .content ul li .text-box .box-right strong a {
-        font-size: 1.375em;
+        font-size: 1.250em;
         font-weight: 400;
     }
     #page3 .content ul li .text-box .box-right p {
-        font-weight: 400;
+        display: none;
     }
     #page3 .content .box-left{
         display: none;
     }
     #page3 .content ul li .text-box .box-right {
-        margin-left: 0;
+        margin: 0 auto;
     }
+	#page3 .content ul li .text-box .box-right .group {
+		margin: 0 auto;
+	}
+	#page3 .red {
+		padding-bottom: 60px;
+	}
     #page3 .red a {
         width: 80px;
         height: 80px;
         line-height: 80px;
         font-size: 0.750em;
     }
-    #page3 .last-box {
-        padding: 120px 0;
-    }
     #page3 .last-text h5 {
-        font-size: 1.375em;
+        font-size: 1.625em;
         font-weight: 300;
+		line-height: 0;
     }
     #page3 .last-text b{
         font-size: 1.500em;
         font-weight: 800;
     }
     #page3 .last-box{
-        padding: 120px 0;
+        padding: 32px 0;
     }
+	#page3 .last-text {
+		padding: 90px 0 50px 0;
+	}
+	#top_btn {
+		right: -6%;
+		bottom: 6%;
+	}
     #footer{
-        padding: 100px 0;
+        padding: 20px 0;
     }
     #footer .footer-inner ul{
         padding: 50px 0;
