@@ -46,6 +46,8 @@ body {
 }
 #header h1 a {
 	display: inline-block;
+	font-size: 2em;
+	color: #fff;
 }
 #header h1 a img {
 	display: block;
@@ -120,7 +122,9 @@ body {
 	background-size: cover;
 }
 
-.main_area .title {
+.main_area .title,
+.sub1 .title,
+.sub4 .title {
 	position: absolute;
 	left: 10%;
 	top: 42%;
@@ -135,7 +139,40 @@ body {
 	transition: all 0.4s;
 	transform: translateY(100px);
 }
-.main_area .title-bottom {
+.sub2 .title {
+	position: absolute;
+	left: 10%;
+	top: 42%;
+	width: 50%;
+	height: 120px;
+	line-height: 120px;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 700;
+	color: #000;
+	opacity: 0;
+	transition: all 0.4s;
+	transform: translateY(100px);
+}
+.sub3 .title{
+	position: absolute;
+	right: -20%;
+	top: 42%;
+	width: 50%;
+	height: 120px;
+	line-height: 120px;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 700;
+	color: #fff;
+	opacity: 0;
+	transition: all 0.4s;
+	transform: translateY(100px);
+}
+
+.main_area .title-bottom,
+.sub1 .title-bottom,
+.sub4 .title-bottom {
 	position: absolute;
 	left: 10%;
 	top: 48%;
@@ -150,10 +187,52 @@ body {
 	transition: all 0.8s;
 	transform: translateY(100px);
 }
+.sub2 .title-bottom {
+	position: absolute;
+	left: 10%;
+	top: 48%;
+	width: 50%;
+	height: 120px;
+	line-height: 120px;
+	text-transform: uppercase;
+	font-size: 1.250em;
+	font-weight: 400;
+	color: #000;
+	opacity: 0;
+	transition: all 0.8s;
+	transform: translateY(100px);
+}
+.sub3 .title-bottom{
+	position: absolute;
+	right: -20%;
+	top: 48%;
+	width: 50%;
+	height: 120px;
+	line-height: 120px;
+	text-transform: uppercase;
+	font-size: 1.250em;
+	font-weight: 400;
+	color: #fff;
+	opacity: 0;
+	transition: all 0.8s;
+	transform: translateY(100px);
+}
+
 .main_area.active .title,
 .main_area.active .title-bottom {
 	opacity: 1;
 	transform: translateY(0);
+}
+.sub1.active .title,
+.sub1.active .title-bottom,
+.sub2.active .title,
+.sub2.active .title-bottom,
+.sub3.active .title,
+.sub3.active .title-bottom,
+.sub4.active .title,
+.sub4.active .title-bottom{
+	opacity: 1;
+	transform: translate(0);
 }
 .sub {
 	position: absolute;
