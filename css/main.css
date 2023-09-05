@@ -716,6 +716,7 @@ body {
 #page3 .content ul li .image-bg a img:hover{
 	transform: scale(1.2);
 	transition: 0.8s ease-out;
+	opacity: 92%;
 }
 #page3 .content ul li .text-box{
 	margin-top: 50px;
