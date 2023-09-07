@@ -843,7 +843,7 @@ body {
     display: flex;
 	flex-direction: column;
     padding: 50px 20px 20px;
-	transform: translateY(12%);
+	transform: translateY(6%);
 }
 #footer .footer-inner h3{
     display: block;
@@ -851,7 +851,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
 	color: #fff;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 #footer .footer-inner ul{
 	padding: 50px 0;
@@ -867,17 +867,9 @@ body {
 }
 #footer .footer-inner ul li:nth-child(1){
     font-size: 1em;
-    font-weight: 300;
-}
-#footer .footer-inner .footer-right1{
-    max-width: 50%;
-}
-#footer .footer-inner .footer-right2{
-    font-size: 0.750em;
     font-weight: 500;
-    color: #999;
+	padding-bottom: 20px;
 }
-
 
 @media only screen and (max-width: 1280px){
 	#page3{
@@ -1060,6 +1052,9 @@ body {
         text-align: center;
         padding: 20px 0
     }
+	#footer .footer-inner ul li:first-child{
+		font-size: 0.750em;
+	}
     #footer .footer-inner ul li{
         font-size: 0.750em;
     }
