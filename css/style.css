@@ -786,7 +786,7 @@ body {
 }
 
 #page3 .last-text{
-	padding: 200px 0 50px 0;
+	padding-top: 200px;
 }
 #page3 .last-text h5{
 	font-size: 3.750em;
@@ -799,8 +799,9 @@ body {
 	line-height: 80px;
 }
 #page3 .red{
-	max-width: 200px;
-	padding-bottom: 150px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 150px 0;
 }
 #page3 .red a{
 	display: inline-block;
