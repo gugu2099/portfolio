@@ -833,7 +833,7 @@ body {
     margin: 0 auto;
 	background-image: url(../images/contact.jpg);
 	background-size: cover;
-	height: 500px;
+	height: 400px;
 	opacity: 90%;
 	text-align: center;
 }
@@ -843,7 +843,7 @@ body {
     display: flex;
 	flex-direction: column;
     padding: 50px 20px 20px;
-	transform: translateY(30%);
+	transform: translateY(12%);
 }
 #footer .footer-inner h3{
     display: block;
@@ -851,6 +851,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
 	color: #fff;
+	padding-bottom: 30px;
 }
 #footer .footer-inner ul{
 	padding: 50px 0;
@@ -866,12 +867,7 @@ body {
 }
 #footer .footer-inner ul li:nth-child(1){
     font-size: 1em;
-    font-weight: 600;
-}
-#footer .footer-inner ul li:nth-child(2) a{
-    display: block;
-    font-size: 1em;
-    font-weight: 500;
+    font-weight: 300;
 }
 #footer .footer-inner .footer-right1{
     max-width: 50%;
@@ -1058,13 +1054,13 @@ body {
     #footer{
         padding: 20px 0;
     }
-    #footer .footer-inner ul li{
-        font-size: 0.750em;
-    }
-    #footer .footer-inner{
+	#footer .footer-inner{
         display: flex;
         flex-direction: column;
         text-align: center;
         padding: 20px 0
+    }
+    #footer .footer-inner ul li{
+        font-size: 0.750em;
     }
 }
