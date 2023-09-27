@@ -302,7 +302,7 @@ body {
 #page1 .profile_list {
 	display: flex;
 	position: absolute;
-	right: 30px;
+	right: 20px;
 	bottom: 50px;
 	z-index: 1000;
 }
@@ -425,7 +425,7 @@ body {
 
 @media only screen and (max-width: 1120px) {
 	#page1 .media .keytext {
-		padding: 0 30px;
+		padding: 0 20px;
 		width: 100%;
 		box-sizing: border-box;
 	}
@@ -433,9 +433,18 @@ body {
 		font-size: 3em;
 	}
 	#page1 .media .controller {
-		width: calc(100% - 60px);
+		width: calc(100% - 30px);
 	}
 }
+@media only screen and (max-width: 720px){
+	#page1 .profile_list {
+		left: 20px;
+	}
+	#page1 .profile_list li:first-child {
+		padding-left: 0;
+	}
+}
+
 @media only screen and (max-width: 380px) {
 	#page1 .profile_list li a span {
 		display: none;
@@ -507,8 +516,9 @@ body {
 	padding: 0 5%;
 }
 #page2 .content .content-text:first-child{
-	width: 28%;
+	width: 20%;
 	border-right: 1px dashed #bbb;
+	padding-left: 0;
 }
 
 #page2 .content-text strong{
@@ -560,6 +570,10 @@ body {
 	#page2 .content .content-text:first-child{
         border-right: none;
         padding-bottom: 80px;
+		width: 100%;
+	}
+	#page2 .content .content-text {
+		padding: 0;
 	}
 	#page2 .container .container-box h2{
 		font-size: 2em;
@@ -575,7 +589,7 @@ body {
 		line-height: 18px;
 	}
 	#page2 .content .content-text:first-child {
-		width: 50%;
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 460px){
