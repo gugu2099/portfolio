@@ -824,6 +824,9 @@ body {
 	font-size: 0.875em;
 	width: 340px;
 }
+#page3 .content ul li:last-child .text-box .box-right .group{
+	width: 280px;
+}
 #page3 .text-box .box-right .group .group-left,
 #page3 .text-box .box-right .group .group-right{
 	background-color: #000;
@@ -1014,7 +1017,8 @@ body {
 	#page3 .text-box .box-right .group .group-right{
 		margin-top: 20px;
 	}
-	#page3 .content ul li .text-box .box-right .group {
+	#page3 .content ul li .text-box .box-right .group,
+	#page3 .content ul li:last-child .text-box .box-right .group{
 		width: 80%;
 	}
     #page3 .top .title .label {
